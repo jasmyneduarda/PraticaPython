@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+ul#album-fotos{
+   /* background-color: red;*/
+    width: 700px; /* largura*/
+    margin: 0px auto 0px auto; /*espaçamento para fora*/
+    padding: 50px /*espaçamento para dentro*/
+    overflow: hidden; /**/
+    list-style: none;/*tira as bolinhas*/
+}
+
+ul#album-fotos li {
+    background-color: yellow;
+    display:block; /* transforma em bloco*/
+    float: left; /* flutua*/
+    width: 200px;
+    height: 200px; /* altura*/
+    margin: 10px;
+    border: 5px solid #fff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* sombra*/
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* -- 202 -- */
+div#tv-radio {
+	width: 700px; /* largura */
+	height: 450px; /* altura */
+	margin: 10px auto 20px auto; /* centralizar */
+	background: url("../_imagens/radio-tv-menor.png") no-repeat; /* imagem de fundo sem repeti��o */
+}
+
+/* -- 203 -- */
+audio#musica {
+	display: block;
+	position: relative;
+	left: 448px;
+	top: 386px;
+	width: 230px;
+}
+
+/* -- 204 -- */
+video#filme {
+	display: block;
+	position: relative;
+	left: 63px;
+	top: 58px;
+	width: 352px;
+}
